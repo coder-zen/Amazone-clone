@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /* box ke ander hi maring and padding aaiyagi */
+}
+
+.nav {
+    height: 65px;
+    background-color: #131921;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-logo:hover {
+    border: 2px solid white;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+
+    z-index: 10;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+
+    border: 2px solid transparent;
+
+}
+
+.add-nav {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    margin-top: 5px;
+    padding-right: 3px;
+}
+
+.add-nav:hover {
+    border: 2px solid white;
+}
+
+.add-first {
+    margin-left: 36px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    line-height: 11px;
+
+}
+
+.ind {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fa-solid {
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+/* thirdbox */
+.nav-search {
+    display: flex;
+
+
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 51px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mysearch {
+    height: 40px;
+    width: 620px;
+}
+
+.mysearch::placeholder {
+
+    /* border: none; */
+    /* border: 4px; */
+    /* border-radius: 4px; */
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.search-icon {
+    height: 40px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+
+}
+
+/* #fourth box */
+
+.map {
+    height: 45px;
+    width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+.map:hover {
+    border: 2px solid white;
+}
+
+.eng {
+    width: 18px;
+    height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 31px;
+}
+
+.fa-angle-down {
+    width: 8px;
+    height: 4px;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: wheat;
+    font-size: 15px;
+
+}
+
+/* #fourth box */
+.box4 {
+    color: #ffffff;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 132px;
+    height: 49px;
+
+}
+
+.box4:hover {
+    border: 2px solid white;
+}
+
+.fourth-first {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fourth-second {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.icon {
+    width: 8px;
+    height: 4px;
+    margin-top: 15px;
+}
+
+/* box5 */
+.box5 {
+
+    color: #ffffff;
+    line-height: 18px;
+    /* display: flex; */
+    height: 50px;
+    width: 80px;
+    padding-top: 3px;
+    padding-left: 2px;
+
+}
+
+.box5:hover {
+    border: 2px solid white;
+}
+
+.fifth-first {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fifth-second {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* box6  */
+
+
+.box6 {
+    color: #ffffff;
+    width: 84px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    border: 2px solid transparent;
+    padding-left: 5px;
+
+}
+
+.box6:hover {
+    border: 2px solid white;
+}
+
+/* Here Nav-bar is complete but responsive ness is missing */
+
+/* now i am making the second pannel */
+/* 1st pannl horizonta-bar */
+
+.panel {
+    width: 100%;
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    gap: 20px;
+    cursor: pointer;
+}
+
+/* Panel-Box-1 */
+
+.menu-icon {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.all {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* panel-box-2 */
+
+.main-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+    gap: 15px;
+}
+
+.last-panel {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.border-panel:hover {
+    border: 2px solid white;
+}
+
+/* Hero-sections
+ */
+
+.hero-section {
+    background-image: url("images/hero_image\ -\ Copy.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    /* position: absolute; */
+
+}
+
+.hero-panel {
+    background-color: white;
+    color: black;
+    width: 80vw;
+    height: 25px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 400px;
+    position: absolute;
+}
+
+.hero-panel a {
+    text-decoration: none;
+
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #c4d6d8;
+
+}
+
+.box {
+    height: 455px;
+    width: 23%;
+    /* border: 2px solid black; */
+    z-index: 10;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+
+}
+
+.box a {
+    text-decoration: none;
+    color: rgb(15, 61, 61);
+}
+
+.box-image {
+    height: 320px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1-content {
+
+    /* margin-top: 25p17 */
+    margin-bottom: 25px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.heading {
+    z-index: 10;
+    color: black;
+}
+
+.mid-section {
+    width: 100%;
+    height: 200px;
+    /* margin: auto; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    /* margin-right:120px; */
+}
+
+.mid-content {
+    width: 1000px;
+    margin-left: 620px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 120px;
+}
+
+.mid-last-content {
+    margin-right: 180px;
+    width: 330px;
+}
+
+.mid-content a {
+    text-decoration: none;
+}
+
+.last-section {
+    width: 100%;
+    height: 60px;
+    background-color: #37475a;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    width: 100px;
+    margin: auto;
+    padding-top: 15px;
+    /* margin-right: 100px; */
+
+}
+
+.btn {
+    height: 28px;
+    width: 300px;
+    background-color: #ffcb47;
+    border: 2px solid #ffcb47;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    ;
+    text-align: center;
+
+}
+
+.mid-last-content {
+    margin-left: 50px;
+}
+
+.mid-content p {
+    margin-left: 50px;
+}
+
+
+
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #232f3e;
+
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+
+}
+
+.knox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    place-content: center;
+    gap: 50px;
+}
+
+.seperation {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+
+}
+
+.footer2 {
+    width: 100%;
+    height: 200px;
+    background-color: #232f3e;
+   
+}
+.part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    align-content: center;padding-top: 50px;
+}
+.engg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid white;
+    width: 100px;
+    height: 35px;
+   color: white;
+   gap: 20px;
+   margin-bottom: 10px;
+
+}
+.eng-icon{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.countery{
+  width: 100%;
+  height: 37px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+
+}
+
+.fotter3{
+width: 100%;
+height: 200px;
+background-color: #131a22;
+
+
+}
+
+.row2{
+    text-align: center;
+    color: wheat;
+    color: wheat;
+}
